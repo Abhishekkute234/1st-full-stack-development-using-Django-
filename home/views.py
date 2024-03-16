@@ -1,5 +1,8 @@
 # the whole code is wriiten here so the urls enter in the view to perfoem ferture functions
-
+# This Django views module comprises functions for rendering various pages of a website. 
+# "index" renders the homepage with context variables. "about" renders the about page. 
+# "services" renders the services page. "contact" handles form submission, saving contact 
+# info to the database, and displaying a success message.
 from django.shortcuts import render, HttpResponse
 from datetime import datetime
 from home.models import Contact
