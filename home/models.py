@@ -4,6 +4,7 @@ from django.db import models
 # migrate - apply the pending changes created by makemigrations
 
 # Create your models here.
+# the whole game is here to add this all files to the data base
 class Contact(models.Model):
     name = models.CharField(max_length=122)
     email = models.CharField(max_length=122)

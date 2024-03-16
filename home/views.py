@@ -1,3 +1,5 @@
+# the whole code is wriiten here so the urls enter in the view to perfoem ferture functions
+
 from django.shortcuts import render, HttpResponse
 from datetime import datetime
 from home.models import Contact
